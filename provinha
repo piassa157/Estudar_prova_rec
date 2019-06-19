@@ -1,0 +1,78 @@
+//questao 1
+
+private boolean tem (x I) THROWS EXCEPTION {
+    //se veio alguma lista
+    if (i == nul)
+        throws new exception ("info ausente);
+
+        //this nunca pode ser nulo
+        //Se a lista ta vazia
+        
+        if (this.primeiro == null) {
+            return false;
+        }
+
+        No atual = this.primeiro;
+
+        do
+        {   
+            if(i.equals(atual.getInfo()))
+                return true;
+
+            atual=atual.getProx();
+
+        }while (atual != this.primeiro)
+
+        return false;
+}
+
+public int getQtosComuns (ListaDuplameteLigadaCircularDesornedada<x> lis) throws exception
+{
+    if(lis == null)
+        throws new exception ("LISTA VAZIA);
+
+    if(this.primeiro  == null || lis.primeiro == null)
+        return o;
+
+    int cont = 0;
+    No atual = this.primeiro;
+        do {
+            if(lis.tem(atual.getInfo()))
+                cont ++;
+
+        }while (atual != this.primeiro)
+
+        return cont++;
+}
+
+//questao 2
+
+
+public ListaDuplameteLigadaCircularDesornedada<x> conecta
+ (ListaDuplameteLigadaCircularDesornedada<x> lis) 
+throws exception {
+    if (lis == null)
+        throws new exception (bakdbasdkas);
+
+        if(this.primeiro == null)
+            return (ListaDuplameteLigadaCircularDesornedada <x>)lis.clone();
+        
+        if (lis.primeiro == null)
+            return new ListaDuplameteLigadaCircularDesornedada <x> (lix);
+
+        ListaDuplameteLigadaCircularDesornedada<x> esseThis = 
+        (ListaDuplameteLigadaCircularDesornedada <x>)this.clone();
+
+        ListaDuplameteLigadaCircularDesornedada<x> esselis =
+        new ListaDuplameteLigadaCircularDesornedada<x>(lis);
+
+        esseThis.ultimo.setProx(outra.primeiro);
+        esselis.primeiro.setAnta(esseThis.ultimo);
+
+        esseThis.ultimo.setProx(outra.primeiro);
+        esselis.primeiro.setAnta(esseThis.ultimo);
+
+        esseThis.ultimo = esselis.ultimo;
+
+        return esseThis;
+}
